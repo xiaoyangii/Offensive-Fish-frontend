@@ -1,7 +1,7 @@
 <template>
   <div class="fri">
     <div class="fri_wrap">
-      <Fri :list="friList" :style="customStyle"></Fri>
+      <Fri :style="customStyle"></Fri>
       <backBtn />
     </div>
   </div>
@@ -18,9 +18,6 @@ export default {
   },
   data () {
     return {
-      friList: [
-
-      ],
       customStyle: {
         height: '70vh',
         width: '25vw'
